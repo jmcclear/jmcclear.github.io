@@ -1,6 +1,5 @@
 .container{
-	margin:auto;
-	width:50%;
+	text-align: center;
 }
 .container h1{
 	font-family:Tahoma;
@@ -11,10 +10,7 @@
 	letter-spacing: 0.2em;
 }
 .container-2{
-	position:center;
-	color:black;
-	width:80%;
-	margin:auto;
+	text-align: center;
 }
 .container-3{
 	text-align: center;
@@ -22,8 +18,7 @@
 	width:50%;	*/
 }
 .container-4 {
-	margin:auto;
-	width:50%;
+	text-align: center;
 }
 .contact--social{
 	float:left;
