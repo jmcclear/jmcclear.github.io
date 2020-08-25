@@ -14,19 +14,19 @@
 	margin:auto;
 	width: 50%;
 }
-.container-2.about--description{
+.container-2 .about--description p{
 
 	font-size: 50px
 	font-family: sans-serif;
 
 }
-.container-3{
+.container-3 .contact--get-in-touch p{
 	text-align: center;font-size: 50px
 	font-family: sans-serif;
 	/*margin:auto;
 	width:50%;	*/
 }
-.container-4 {
+.container-4 .contact--info{
 	text-align: center;
 	font-size: 50px
 	font-family: sans-serif;
