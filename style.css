@@ -9,7 +9,6 @@
 	text-decoration: underline;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
-	word-spacing: 1em;
 }
 .container-2{
 	position:center;
@@ -18,10 +17,17 @@
 	margin:auto;
 }
 .container-3{
-	margin:auto;
-	width:50%;	
+	text-align: center;
+	/*margin:auto;
+	width:50%;	*/
 }
 .container-4 {
 	margin:auto;
 	width:50%;
+}
+.contact--social{
+	float:left;
+	width: 33.3%;
+	padding:10px;
+	box-sizing:border-box;
 }
