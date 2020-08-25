@@ -1,5 +1,8 @@
-.header h1{
-	position: center;
+.container{
+	margin:auto;
+	width:50%;
+}
+.container h1{
 	font-family:Tahoma;
 	font-weight: 800;
 	font-style:italic;
@@ -8,15 +11,17 @@
 	letter-spacing: 0.2em;
 	word-spacing: 1em;
 }
-.about--description{
+.container-2{
 	position:center;
 	color:black;
 	width:80%;
 	margin:auto;
 }
-.contact--get-in-touch {
-	position:center;	
+.container-3{
+	margin:auto;
+	width:50%;	
 }
-.contact--info {
-	position:center;
+.container-4 {
+	margin:auto;
+	width:50%;
 }
