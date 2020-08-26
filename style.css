@@ -7,7 +7,7 @@
 	font-style:italic;
 	text-decoration: underline;
 	text-transform: uppercase;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 }
 .container-2{
 	text-align: center;
@@ -40,8 +40,8 @@
 	text-align: center;
 
 }
-.image{
-	text-align: center;
+.container.image{
+	text-align: left;
 	/*width:800px;
 	height:500px;
 	/*border:1px solid #000;*/
