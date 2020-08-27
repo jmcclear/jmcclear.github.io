@@ -68,6 +68,19 @@ body{
 	overflow:hidden;
 }
 
+.container img {
+	float:left;
+	width:100px;
+	height:100px;
+	background:#555;
+}
+
+.container h1{
+	position:relative;
+	top:18px;
+	left:10px;
+}
+
 #main-header{
 	background-color: coral;
 	color:#fff;
@@ -95,7 +108,7 @@ body{
 }
 
 #showcase {
-	background-image:url(.../images/background.png);
+	background-image:url(OGLOGO copy.png);
 	background-position: center right;
 	min-height: :300px;
 	margin-bottom:center;
