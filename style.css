@@ -82,7 +82,7 @@ a: visited{
 
 .container img {
 	float:left;
-	margin:25px 5px;
+	margin:25px 0px;
 	width:50px;
 	height:50px;
 	background:coral;
@@ -140,6 +140,7 @@ a: visited{
 	float:left;
 	width:70%;
 	padding:0 30px;
+	background-color: 
 	box-sizing: border-box;
 }
 
@@ -151,7 +152,7 @@ a: visited{
 	padding:10px;
 	box-sizing: border-box;
 	margin-top: 20px;
-	
+
 }
 
 .main-footer{
@@ -173,3 +174,11 @@ a: visited{
 		float:none;
 	}
 }
+
+.contact--social {
+	display:inline;
+}
+
+/*.wrapper li{
+
+}*/
