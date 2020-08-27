@@ -70,6 +70,10 @@ a: active{
 	color:green;
 }
 
+a: visited{
+	color:none;
+}
+
 .container{
 	width:80%;
 	margin:auto;
