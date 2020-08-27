@@ -180,10 +180,12 @@ a: visited{
 }
 
 .wrapper li{
-	padding:10px;
+	padding:20px;
+	margin:20px;
+
 	list-style: none;
 	float: left;
     width:  100px;
     height: 100px;
-    object-fit: cover
+    background-size: cover;
 }
