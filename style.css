@@ -1,59 +1,3 @@
-/*body{
-	background-color: #C0C0C0;
-}
-
-.container{
-	text-align: center;
-}
-.container h1{
-	font-family:"Courier New", Courier, monospace;
-	font-weight: 800;
-	font-style:italic;
-	text-decoration: underline;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
-.container-2{
-	text-align: center;
-	margin:auto;
-	width: 50%;
-}
-.about--description p{
-
-	font-size: 50px
-	font-family: "Courier New", Courier, monospace;
-
-}
-.contact--get-in-touch p{
-	text-align: center;
-	font-size: 50px
-	font-family: "Courier New", Courier, monospace;
-	/*margin:auto;
-	width:50%;	*/
-}
-/*font-size: 50px
-	font-family: "Courier New", Courier, monospace;
-}
-.contact--social{
-	/*float:left;
-	width: 33.3%;
-	padding:10px;
-	box-sizing:border-box;*/
-	/*text-align: center;
-
-}
-.container .image{
-	text-align: left;
-	/*width:800px;
-	height:500px;
-	/*border:1px solid #000;*/
-	/*margin-top: 30px;
-	/*background-image:url('DWAI.png') /*goes outside current folder into images then picks picture*/
-	/*background-repeat: no-repeat;*/
-	/*background-position: 100px 200px;*/
-	/*background-position: center top;
-}*/
-
 body{
 	background-color: #f4f4f4;
 	color:#555;
@@ -62,15 +6,15 @@ body{
 	margin:0;
 }
 
-a: hover{
+.navbar a: hover{
 	color:gray;
 }
 
-a: active{
+.navbar a: active{
 	color:green;
 }
 
-a: visited{
+.navbar a: visited{
 	color:none;
 }
 
@@ -193,10 +137,10 @@ a: visited{
 }
 
 .wrapper ul{
-	margin:10px;
+	margin:auto;
 	padding:5px;
 	list-style: none;
-    max-width:  100%;
+    max-width:  80%;
     height: auto;
     /*background-size: cover;*/
     text-align:center;
@@ -204,8 +148,8 @@ a: visited{
 
 .wrapper li{
 	border:solid black;
-	margin: 25px;
-	width: 100%;
+	margin: auto;
+	max-width: 80%;
 	text-align:center;
 	font-size: 25px;
 	font-family:"Courier New", Courier, monospace;
@@ -242,3 +186,13 @@ a: visited{
   	vertical-align: middle;
 }
 
+.contact--icon a {
+	display:inline;
+}
+
+#gear--header{
+	font-family:"Courier New", Courier, monospace;
+	font-size: 25px; ;
+	text-align: center;
+	text-decoration-style: bold;
+}
