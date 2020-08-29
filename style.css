@@ -116,12 +116,12 @@ body{
 	margin-top: 100px;
 }
 
-@media(max-width:600px){
+/*@media(max-width:600px){
 	#main{
 		width:100%;
 		float:none;
 	}
-}
+}*/
 
 .contact--social {
 	display:inline;
@@ -140,7 +140,7 @@ body{
 	margin:auto;
 	padding:5px;
 	list-style: none;
-    max-width:  90%;
+    width:  90%;
     height: auto;
     /*background-size: cover;*/
     text-align:center;
@@ -150,7 +150,7 @@ body{
 	border:solid black;
 	margin-top:20px;
 	padding:5px;
-	max-width: 90%;
+	width: 90%;
 	text-align:center;
 	font-size: 25px;
 	font-family:"Courier New", Courier, monospace;
