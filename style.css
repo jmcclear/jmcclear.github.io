@@ -6,7 +6,7 @@
 	text-align: center;
 }
 .container h1{
-	font-family:Tahoma;
+	font-family:"Courier New", Courier, monospace;
 	font-weight: 800;
 	font-style:italic;
 	text-decoration: underline;
@@ -21,18 +21,18 @@
 .about--description p{
 
 	font-size: 50px
-	font-family: sans-serif;
+	font-family: "Courier New", Courier, monospace;
 
 }
 .contact--get-in-touch p{
 	text-align: center;
 	font-size: 50px
-	font-family: sans-serif;
+	font-family: "Courier New", Courier, monospace;
 	/*margin:auto;
 	width:50%;	*/
 }
 /*font-size: 50px
-	font-family: sans-serif;
+	font-family: "Courier New", Courier, monospace;
 }
 .contact--social{
 	/*float:left;
@@ -57,7 +57,7 @@
 body{
 	background-color: #f4f4f4;
 	color:#555;
-	font-family: sans-serif;
+	font-family: "Courier New", Courier, monospace;
 	line-height:1.6em;
 	margin:0;
 }
@@ -85,7 +85,7 @@ a: visited{
 	margin:25px 0px;
 	width:50px;
 	height:50px;
-	background:coral;
+	background:lightblue;
 }
 
 .container h1{
@@ -204,6 +204,8 @@ a: visited{
 }
 
 .column img {
+	height:100px;
+	width:100px;
   	margin-top: 8px;
   	vertical-align: middle;
 }
