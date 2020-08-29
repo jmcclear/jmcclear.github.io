@@ -179,16 +179,26 @@ a: visited{
 	display:inline;
 }
 
-/*.wrapper li{
+.wrapper li{
 	padding:20px;
 	margin:20px;
 
 	list-style: none;
-	float: left;
-    width:  100px;
-    height: 100px;
-    background-size: cover;
-}*/
+	/*float: left;*/
+    width:  80%;
+    height: auto;
+    /*background-size: cover;*/
+}
+
+.wrapper li: nth-child(odd){
+	background-color: gray;
+	color: black;
+}
+
+.wrapper li: nth-child(even){
+	background-color: white;
+	color:black;
+}
 
 .row {
 	list-style:none;
