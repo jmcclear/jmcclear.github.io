@@ -179,9 +179,9 @@ a: visited{
 	display:inline;
 }
 
-.wrapper li{
-	padding:20px;
-	margin:20px;
+.wrapper ul{
+	/*padding:20px;*/
+	margin:10px;
 
 	list-style: none;
 	/*float: left;*/
@@ -190,12 +190,18 @@ a: visited{
     /*background-size: cover;*/
 }
 
-.wrapper li: nth-child(odd){
+.wrapper li{
+	border:solid black;
+}
+
+
+
+li: nth-child(odd){
 	background-color: gray;
 	color: black;
 }
 
-.wrapper li: nth-child(even){
+li: nth-child(even){
 	background-color: white;
 	color:black;
 }
