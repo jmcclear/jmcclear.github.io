@@ -152,11 +152,12 @@ body{
 
 .wrapper li{
 	border:solid black;
-	margin: auto;
+	margin-top:20px;
 	max-width: 90%;
 	text-align:center;
 	font-size: 25px;
 	font-family:"Courier New", Courier, monospace;
+	color:black;
 
 }
 
@@ -190,7 +191,7 @@ body{
   	vertical-align: middle;
 }
 
-.contact--social a{
+.contact--social{
 	display:inline;
 }
 
