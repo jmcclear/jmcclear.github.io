@@ -140,11 +140,11 @@ a: visited{
 	float:left;
 	width:70%;
 	padding:0 30px;
-	background-color: 
+	background-color: gray;
 	box-sizing: border-box;
 }
 
-#sidebar{
+/*#sidebar{
 	float:right;
 	width:30%;
 	background-color: coral;
@@ -153,7 +153,7 @@ a: visited{
 	box-sizing: border-box;
 	margin-top: 20px;
 
-}
+}*/
 
 .main-footer{
 	background: #333;
@@ -179,30 +179,42 @@ a: visited{
 	display:inline;
 }
 
+#quotes h2{
+	color:black;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top: 30px
+	text-align:center;
+}
+
 .wrapper ul{
 	/*padding:20px;*/
 	margin:10px;
 
 	list-style: none;
 	/*float: left;*/
-    width:  80%;
+    width:  70%;
     height: auto;
     /*background-size: cover;*/
+    text-align:center;
 }
 
 .wrapper li{
 	border:solid black;
+	margin: 25px;
+	text-align:center;
+	font-size: 30px;
+	font-family:"Courier New", Courier, monospace;
+
 }
 
-
-
-li: nth-child(odd){
+.wrapper li: nth-child(odd){
 	background-color: gray;
 	color: black;
 }
 
-li: nth-child(even){
-	background-color: white;
+#quotes li: nth-child(even){
+	background-color: gray;
 	color:black;
 }
 
