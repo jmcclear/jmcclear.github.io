@@ -7,11 +7,17 @@ body{
 }
 
 /*--------------------------This is all the top header css-------------------------------*/
+.main-header{
+	background-color: lightblue;
+	color:#fff; 
+
+}
+
 .header-container{
 	width:80%;
-	margin:auto;
+	margin:none;
+	height: 100px;
 	overflow:hidden;
-	color:black;
 }
 
 .header-container img {
@@ -22,25 +28,21 @@ body{
 	background:lightblue;
 }
 
-.header-container h1{
+.header-container h1{	
 	position:relative;
 	top:18px;
 	left:10px;
 	font-family:"Courier New", Courier, monospace;
-	font-size: 25px; 
+	font-size: 40px; 
 	color:black;
 }
 
-.main-header{
-	background-color: lightblue;
-	color:#fff;
-	font-size:25px; 
 
-}
 
 .navbar{
 	background-color:#333;
 	color:#fff;
+	margin: 0px 0px;
 }
 
 .navbar ul{
@@ -54,12 +56,12 @@ body{
 
 .navbar a{
 	color:#fff;
-	text-decoration: none;
+	text-decoration-style: none;
 	font-size:18px;
 	padding-right:15px;
 }
 .navbar a: hover{
-	color:gray;
+	color:purple;
 }
 
 .navbar a: active{
@@ -67,7 +69,7 @@ body{
 }
 
 .navbar a: visited{
-	color:none;
+	color:red;
 }
 /*-----------------------------------------------------------------------------*/
 
@@ -81,8 +83,9 @@ body{
 	background-image:url(OGLOGO.png);
 	background-position: center right;
 	min-height: :300px;
-	margin-bottom:center;
+	margin-bottom:25px;
 	text-align: center
+	margin-top:0px;
 
 }
 
@@ -190,7 +193,17 @@ body{
 }
 /*------------------------------------------------------------------------------------*/
 
+/*----------------------Inserting a gif in the contact section------------------------*/
 
+.contact-background{
+	background-image:url(giphy.gif);
+	background-position: center right;
+	background-repeat: none;
+	min-height: :300px;
+	margin-bottom:center;
+	text-align: center
+}
+/*--------------------------------------------------------------------------------*/
 
 
 
