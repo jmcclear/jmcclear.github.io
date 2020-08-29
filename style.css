@@ -6,26 +6,15 @@ body{
 	margin:0;
 }
 
-.navbar a: hover{
-	color:gray;
-}
-
-.navbar a: active{
-	color:green;
-}
-
-.navbar a: visited{
-	color:none;
-}
-
-.container{
+/*--------------------------This is all the top header css-------------------------------*/
+.header-container{
 	width:80%;
 	margin:auto;
 	overflow:hidden;
 	color:black;
 }
 
-.container img {
+.header-container img {
 	float:left;
 	margin:25px 0px;
 	width:50px;
@@ -33,7 +22,7 @@ body{
 	background:lightblue;
 }
 
-.container h1{
+.header-container h1{
 	position:relative;
 	top:18px;
 	left:10px;
@@ -69,6 +58,24 @@ body{
 	font-size:18px;
 	padding-right:15px;
 }
+.navbar a: hover{
+	color:gray;
+}
+
+.navbar a: active{
+	color:green;
+}
+
+.navbar a: visited{
+	color:none;
+}
+/*-----------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------This is simply the showcase area----------------------*/
+
 
 #showcase {
 	background-image:url(OGLOGO.png);
@@ -86,7 +93,15 @@ body{
 	padding-top: 30px
 }
 
-#Main {
+/*-------------------------------------------------------------------------------*/
+
+
+
+
+
+/*------------------------This is the Intro editing area--------------------------*/
+
+.intro-container {
 	margin:50px;
 	text-align:center;
 	background-color: gray;
@@ -96,37 +111,44 @@ body{
 
 }
 
-/*#sidebar{
-	float:right;
-	width:30%;
-	background-color: coral;
-	color:black;
-	padding:10px;
-	box-sizing: border-box;
-	margin-top: 20px;
-
-}*/
-
-.main-footer {
-	background: #333;
-	color: #fff;
+.intro-container h1{
 	text-align: center;
-	padding:20px;
-	margin-bottom:10px;
-	margin-top: 100px;
+	font-size:30px;
+	font-style: bold;
+}
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*------------------------This is the GEAR  SECTION-----------------------------------*/
+.row {
+	list-style:none;
+  	display: flex;
+  	flex-wrap: wrap;
+  	padding: 0 4px;
 }
 
-/*@media(max-width:600px){
-	#main{
-		width:100%;
-		float:none;
-	}
-}*/
-
-.contact--social {
-	display:inline;
+/* Create two equal columns that sits next to each other */
+.column {
+  	flex: 50%;
+  	padding: 0 4px;
 }
 
+.column img {
+	height:300px;
+	width:300px;
+  	margin-top: 8px;
+  	vertical-align: middle;
+}
+/*----------------------------------------------------------------------------------*/
+
+
+
+
+/*--------------------This is the Quotes Section-------------------------------------*/
 #quotes h2{
 	color:black;
 	font-size:30px;
@@ -135,7 +157,6 @@ body{
 	text-align: center;
 	
 }
-
 .wrapper ul{
 	margin:auto;
 	padding:5px;
@@ -167,37 +188,17 @@ body{
 	background-color: gray;
 	color:black;
 }
+/*------------------------------------------------------------------------------------*/
 
-.row {
-	list-style:none;
-  	display: flex;
-  	flex-wrap: wrap;
-  	padding: 0 4px;
-}
 
-/* Create two equal columns that sits next to each other */
-.column {
-  	flex: 50%;
-  	padding: 0 4px;
-}
 
-.column img {
-	height:300px;
-	width:300px;
-  	margin-top: 8px;
-  	vertical-align: middle;
-}
 
-.contact--social{
-	display:inline;
-}
 
-#gear--header{
-	font-family:"Courier New", Courier, monospace;
-	font-size: 25px; ;
+.main-footer {
+	background: #333;
+	color: #fff;
 	text-align: center;
-	text-decoration-style: bold;
-	margin:10px 50px;
-	width: 80%;
-
+	padding:20px;
+	margin-bottom:10px;
+	margin-top: 100px;
 }
